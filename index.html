@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Securemessage</title>
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <h2>Secure message</h2>
+        </header>
+        <div class="LeftPanel">
+            <form action="">
+                <ul>
+                    <li class="item-list">
+                        <h4>Seleccione el reino: </h4>
+                        <select name="" id="templateOption" onclick="FillRealmSelector()">
+                            <option value="">Todos</option>
+                        </select>
+                    </li>
+                    <li class="item-list">
+                        <h4>Seleccione el grupo: </h4>
+                        <select name="" id="templateGroupOption" onclick="FillGroupsSelector()">
+                            <option value="">Todos</option>
+                        </select>
+                    </li>
+                    <li class="item-list">
+                        <h4>Seleccione el usuario: </h4>
+                        <select name="" id="" onclick="FillUserSelector()">
+                            <option value="">All</option>
+                        </select>
+                    </li>
+                    <li class="item-list">
+                        <h4>Escriba el mensaje </h4>
+                        <textarea name="" id=""></textarea>
+                    </li>
+                    <li class="item-list">
+                        <button type="button" >Send</button>
+                    </li>
+                </ul>
+                
+            </form>
+        </div>
+        <div class="RightPanel">
+            <form action="">
+                <ul>
+                    <li class="item-list">
+                        <h4>Seleccione el reino: </h4>
+                        <select name="" id="">
+                            <option value="">All</option>
+                        </select>
+                    </li>
+                    <li class="item-list">
+                        <h4>Seleccione el grupo: </h4>
+                        <select name="" id="">
+                            <option value="">All</option>
+                        </select>
+                    </li>
+                    <li class="item-list">
+                        <h4>Seleccione el usuario: </h4>
+                        <select name="" id="">
+                            <option value="">All</option>
+                        </select>
+                    </li>
+                    <li class="item-list">
+                        <h4>Escriba el mensaje </h4>
+                        <textarea name="" id=""></textarea>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </section>
+
+
+</body>
+<script src="message.js"></script>
+
+</html>

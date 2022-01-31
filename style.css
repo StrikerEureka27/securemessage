@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    height: 50px;
+}
+
+textarea{
+    width: 99.5%;
+}
+
+select{
+    width: 100%;
+}
+
+button{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+    width: 1200px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.LeftPanel{
+    width: 50%;
+    height: 550px;
+    background-color: blue;
+    float: left;
+}
+
+.RightPanel{
+    width: 50%;
+    height: 550px;
+    background-color: red;
+    float: left;
+}
+
+.item-list{
+    margin: auto;
+    margin-top: 20px;
+    list-style: none;
+    background-color: black;
+    color: white;
+    width: 80%;
+}
